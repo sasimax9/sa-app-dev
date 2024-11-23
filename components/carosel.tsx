@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 
 const slides = [
-  { id: 1, content: "Slide 1 content" },
+  { id: 1, content: "slide 1 content" },
   { id: 2, content: "Slide 2 content" },
   { id: 3, content: "Slide 3 content" },
 ]

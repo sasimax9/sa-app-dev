@@ -8,8 +8,8 @@ import { PartnerForm } from "@/components/partner-form"
 import { useTheme } from "next-themes"
 
 const navItems = [
-  { name: "About", href: "/about" },
-  { name: "Services", href: "/services" },
+  { name: "Services", href:"/services" },
+  { name: "About", href: "/About" },
   { name: "Contact", href: "/contact" },
 ]
 
