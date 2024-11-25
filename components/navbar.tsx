@@ -36,7 +36,7 @@ export function Navbar() {
                 {item.name}
               </Link>
             ))}
-            <Link href="https://wa.me/your-whatsapp-number" className="text-green-500">
+            <Link href="https://wa.me/919652575313" className="text-green-500">
               <Phone className="h-5 w-5" />
             </Link>
             <PartnerForm />
@@ -79,7 +79,7 @@ export function Navbar() {
               </Link>
             ))}
             <Link
-              href="https://wa.me/your-whatsapp-number"
+              href="https://wa.me/919652575313"
               className="block px-3 py-2 rounded-md text-base font-medium text-green-500 hover:bg-accent"
             >
               WhatsApp

@@ -7,8 +7,8 @@ import { usePathname } from 'next/navigation'
 const dockItems = [
   { icon: Home, label: 'Home', href: '/' },
   { icon: Search, label: 'Search', href: '/search' },
-  { icon: User, label: 'Profile', href: '/profile' },
-  { icon: Menu, label: 'Menu', href: '/menu' },
+  { icon: User, label: 'Partner With Us', href: '/profile' },
+  { icon: Menu, label: 'Services', href: '/menu' },
 ]
 
 export function MobileDock() {
