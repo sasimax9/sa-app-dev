@@ -36,6 +36,20 @@ const reviews = [
     rating: 5,
     comment: "I Got Best Website OutPut From You.You Did A Good Job, All The Best.",
   },
+
+  {
+    id: 6,
+    name: "Naveen",
+    rating: 5,
+    comment: "Great Earning Opportunity For Freelancers & Skilled Workers. ",
+  },
+
+  {
+    id: 7,
+    name: "Ram Kumar",
+    rating: 4.5,
+    comment: "Good Service, All The Best.",
+  },
   // Add more reviews here as needed
 ];
 

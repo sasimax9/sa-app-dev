@@ -1,8 +1,8 @@
 import Link from "next/link"
-import { Home, Calendar, User, Plane, Globe, Laptop, Trash2, Truck, DollarSign, Cog, Droplet, Wrench, Tv, CctvIcon, Car, Plug, PipetteIcon, WrenchIcon, DoorOpen, AirVent, ShowerHead, PaintRoller, Refrigerator, WashingMachine, ThermometerIcon, ThermometerSun, Waves, User2, Bug, Loader, Fan, Camera, Flower, Lightbulb, ChefHat, Music } from 'lucide-react'
+import { Home, Calendar, User, Plane, Globe, Laptop, Trash2, Truck, DollarSign, Cog, Droplet, Wrench, Tv, CctvIcon, Car, Plug, PipetteIcon, WrenchIcon, DoorOpen, AirVent, ShowerHead, PaintRoller, Refrigerator, WashingMachine, ThermometerIcon, ThermometerSun, Waves, User2, Bug, Loader, Fan, Camera, Flower, Lightbulb, ChefHat, Music, Heater, FlameIcon } from 'lucide-react'
 
 const services = [
-  { name: "Architect", icon: Home, href: "/services/Architect", color: "text-yellow-500" },
+  { name: "Construction", icon: Home, href: "/services/Construction", color: "text-yellow-500" },
   { name: "Interior Designer", icon: Tv, href: "/services/Interior Designer", color: "text-green-600" },
   { name: "Cc Cameras", icon: CctvIcon, href: "/services/Cc Cameras", color: "text-green-500" },
 
@@ -12,11 +12,12 @@ const services = [
   { name: "Carpenter", icon: DoorOpen, href: "/services/Carpenter", color: "text-purple-500" },
   { name: "Bore Well", icon: Waves, href: "/services/Bore Well", color: "text-red-500" },
   { name: "Painter", icon: PaintRoller, href: "/services/Painter", color: "text-red-500" },
+  { name: "Welder", icon: FlameIcon, href: "/services/Pest Control", color: "text-orange-500" },
 
   { name: "A.C.Technician", icon: AirVent, href: "/services/A.C.Technician", color: "text-orange-500" },
   { name: " Refrigerator", icon: Refrigerator, href: "/services/Refrigerator", color: "text-blue-500" },
   { name: "Washing Machine", icon: WashingMachine, href: "/services/Washing Machine", color: "text-pink-500" },
-  { name: "Geyser", icon: ThermometerSun, href: "/services/Geyser", color: "text-red-500" },
+  { name: "Geyser", icon: Heater, href: "/services/Geyser", color: "text-red-500" },
   { name: "Water Purifier", icon: Droplet, href: "/services/Water Purifier", color: "text-pink-500" },
   { name: "Chimney", icon: Loader, href: "/services/Chimney", color: "text-pink-500" },
   { name: "Air Cooler", icon: Fan, href: "/services/Air Cooler", color: "text-pink-500" },
@@ -28,7 +29,7 @@ const services = [
   { name: "Brahmin", icon: User, href: "/services/brahmin", color: "text-orange-500" },
   { name: "Photo/Video", icon: Camera, href: "/services/Photo/Video", color: "text-orange-500" },
   { name: "Decoration", icon: Flower, href: "/services/Decoration", color: "text-orange-500" },
-  { name: "Lighting", icon: Lightbulb, href: "/services/Lighting", color: "text-orange-500" },
+  { name: "Lighting", icon: Lightbulb, href: "/services/Lighting", color: "text-yellow-700" },
   { name: "Food Catering", icon: ChefHat, href: "/services/Food Catering", color: "text-orange-500" },
   { name: "Sounds", icon: Music, href: "/services/Sounds", color: "text-orange-500" },
 

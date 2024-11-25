@@ -1,10 +1,12 @@
 import { Carousel } from "@/components/carousel"
 import { Hero } from "@/components/hero"
-import { ServiceGrid } from "@/components/service-grid"
+import { ServiceGrid } from "@/app/services/service-grid"
 import React from "react";
 import Image from "next/image";
 import MenuGrid from "@/components/ui/MenuGrid";
 import RatingsAndReviews from "./services/ratingandreviews";
+import ConstructionSubmenu from "@/app/services/construction/page";
+
 export default function Home() {
   return (
     <div>
@@ -12,6 +14,8 @@ export default function Home() {
       <Carousel />
       <ServiceGrid />
       <RatingsAndReviews />
+      <ConstructionSubmenu />
+ 
     </div>
   )
 }
