@@ -9,6 +9,7 @@ import { PartnerForm } from "./Partner-form"
 
 
 
+
 const navItems = [
   { name: "Services", href:"/Services" },
   { name: "About", href: "/About" },
@@ -41,7 +42,7 @@ export function Navbar() {
             <Link href="https://wa.me/919652575313" className="text-green-500">
               <Phone className="h-5 w-5" />
             </Link>
-            <PartnerForm />
+      <PartnerForm />
             <Button
               variant="ghost"
               size="icon"
