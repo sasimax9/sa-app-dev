@@ -5,7 +5,8 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { Navbar } from "@/components/navbar"
 
 import { MobileDock } from "@/components/mobile-dock"
-import { Footer } from "./services/Footer/page"
+import { Footer } from "@/components/ui/footer"
+
 
 const inter = Inter({ subsets: ["latin"] })
 
