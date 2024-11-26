@@ -12,23 +12,7 @@ export default function Home() {
       <Carousel />
       <ServiceGrid />
       <RatingsAndReviews />
-      <div>
-      {/* Using Next.js Image Component */}
-      <img
-        src="/ceiling.png"  // Path relative to the public directory
-        alt="Logo"
-        width={100}       // Provide width
-        height={100}      // Provide height
-      />
-
-      {/* Using standard HTML <img> tag */}
-      <img
-        src="/clean.png"  // Path relative to the public directory
-        alt="Logo"
-        width="100"
-        height="100"
-      />
-    </div>
+      
     </div>
   );
 }
