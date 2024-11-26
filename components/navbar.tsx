@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Menu, X, Phone, Sun, Moon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTheme } from "next-themes";
-import { PartnerForm } from "./Partner-form";
+// import { PartnerForm } from "./Partner-form";
 
 const navItems = [
   { name: "Services", href: "/Services" },
@@ -39,7 +39,7 @@ export function Navbar() {
             <Link href="https://wa.me/919652575313" className="text-green-500">
               <Phone className="h-5 w-5" />
             </Link>
-            <PartnerForm />
+            {/* <PartnerForm /> */}
             <Button
               variant="ghost"
               size="icon"
@@ -84,7 +84,7 @@ export function Navbar() {
             >
               WhatsApp
             </Link>
-            <PartnerForm />
+            {/* <PartnerForm /> */}
           </div>
         </div>
       )}
