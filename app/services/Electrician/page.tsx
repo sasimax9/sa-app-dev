@@ -12,40 +12,41 @@ import {
 
 const ElectricalServices = [
   {
-    name: "New Wiring",
+    name: "New Wiring For Construction",
     icon: LucidePlug,
-    href: "/new-wiring", // Link to the internal page
+    href: "https://wa.me/919652575313?text=hi I Need Electrician For My New Construction.<Type your Address here>" , // Link to the internal page
     color: "text-blue-500",
   },
-  {
-    name: "Old Wiring",
-    icon: LucideWrench,
-    href: "/old-wiring", // Link to the internal page
-    color: "text-orange-500",
-  },
+  
   {
     name: "Switch Board Issue",
     icon: LucideZap,
-    href: "/switch-board-issue", // Link to the internal page
-    color: "text-green-600",
+    href:  "https://wa.me/919652575313?text=Hi I Have Trouble With Switch Boards.<Type your Address here>", // Link to the internal page
+    color: "text-red-600",
   },
   {
     name: "Ceiling Fan",
     icon: LucideFan,
-    href: "/ceiling-fan", // Link to the internal page
+    href:  "https://wa.me/919652575313?text=hi I Need Electrician For My Ceiling Fan.<Type your Address here>", // Link to the internal page
     color: "text-yellow-500",
   },
   {
     name: "Stand Fan",
     icon: LucideFan,
-    href: "/stand-fan", // Link to the internal page
-    color: "text-red-500",
+    href:  "https://wa.me/919652575313?text=hi I Need Electrician  For My Stand Fan.<Type your Address here>", // Link to the internal page
+    color: "text-green-500",
   },
   {
-    name: "Tubelight",
+    name: "Lights",
     icon: LucideLightbulb,
-    href: "/tubelight", // Link to the internal page
+    href: "https://wa.me/919652575313?text=hi I Need Electrician  <Type Your Problem.><Type your Address here>", // Link to the internal page
     color: "text-purple-500",
+  },
+  {
+    name: "Others",
+    icon: LucideWrench,
+    href:  "https://wa.me/919652575313?text=<Type Your Requirement/problem.><Type your Address here>", // Link to the internal page
+    color: "text-orange-500",
   },
 ];
 

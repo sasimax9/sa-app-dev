@@ -6,38 +6,21 @@ import {
   LucideDroplet,
   LucideWrench,
   LucidePi,
+  WrenchIcon,
 } from "lucide-react";
 
 const PlumbingServices = [
   {
-    name: "Leak Repair",
+    name: "Work For New Construction",
     icon: LucideDroplet,
-    href: "/leak-repair", // Link to the internal page
+    href: "https://wa.me/919652575313?text=hi I Need Plumber For My New Construction.<Type your Address here>", // Link to the internal page
     color: "text-blue-500",
   },
   {
-    name: "Pipe Installation",
-    icon: LucidePi,
-    href: "/pipe-installation", // Link to the internal page
+    name: "Repair",
+    icon: WrenchIcon,
+    href: "https://wa.me/919652575313?text=hi I Need Plumber  <Type Your Problem.><Type your Address here>", // Link to the internal page
     color: "text-orange-500",
-  },
-  {
-    name: "Drain Cleaning",
-    icon: LucideWrench,
-    href: "/drain-cleaning", // Link to the internal page
-    color: "text-green-600",
-  },
-  {
-    name: "Bathroom Fittings",
-    icon: LucideWrench,
-    href: "/bathroom-fittings", // Link to the internal page
-    color: "text-yellow-500",
-  },
-  {
-    name: "Water Heater Installation",
-    icon: LucideDroplet,
-    href: "/water-heater-installation", // Link to the internal page
-    color: "text-red-500",
   },
 ];
 
@@ -53,7 +36,9 @@ const PlumbingMenu: React.FC = () => {
             className="flex flex-col items-center p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow"
           >
             <service.icon className={`h-12 w-12 mb-2 ${service.color}`} />
-            <span className="text-sm text-center font-medium">{service.name}</span>
+            <span className="text-sm text-center font-medium">
+              {service.name}
+            </span>
           </Link>
         ))}
       </div>

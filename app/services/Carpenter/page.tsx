@@ -3,22 +3,19 @@
 import React from "react";
 import Link from "next/link";
 import {
+  Brush,
   LucideHammer,
   LucideRuler,
   LucideWrench,
+  Trees,
 } from "lucide-react";
 
 const CarpenterServices = [
+ 
   {
-    name: "Furniture Repair",
-    icon: LucideHammer,
-    href: "/furniture-repair", // Link to the internal page
-    color: "text-blue-500",
-  },
-  {
-    name: "Custom Furniture",
-    icon: LucideRuler,
-    href: "/custom-furniture", // Link to the internal page
+    name: "Work For New Construction",
+    icon: Trees,
+    href: "https://wa.me/919652575313?text=hi I Need Carpenter For New Construction.<Type your Address here>", // Link to the internal page
     color: "text-orange-500",
   },
   {
@@ -28,17 +25,18 @@ const CarpenterServices = [
     color: "text-green-600",
   },
   {
-    name: "Wood Polishing",
+    name: "Furniture Repair",
     icon: LucideHammer,
-    href: "/wood-polishing", // Link to the internal page
-    color: "text-yellow-500",
+    href:  "https://wa.me/919652575313?text=hi I Need Carpenter  <Type Your Problem.><Type your Address here>", // Link to the internal page
+    color: "text-blue-500",
   },
   {
-    name: "Cabinet Installation",
-    icon: LucideRuler,
-    href: "/cabinet-installation", // Link to the internal page
-    color: "text-red-500",
+    name: "Wood Polishing",
+    icon: Brush,
+    href:  "https://wa.me/919652575313?text=hi I Need Carpenter For Polshing.<Type your Address here>", // Link to the internal page
+    color: "text-yellow-500",
   },
+  
 ];
 
 const CarpenterMenu: React.FC = () => {
