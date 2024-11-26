@@ -9,15 +9,15 @@ const services = [
   { name: "Solar Power", icon: Sun, href: "https://wa.me/919652575313?text=hi I Need Solar Power,Shall We Discuss More Details??.<Type your Address here>", color: "text-red-500" },
 
   { name: "Inverter", icon: BatteryCharging, href: "/services/Inverter", color: "text-red-500" },
-  { name: "Electrician", icon: Plug, href: "#", color: "text-red-500" },
-  { name: "Mixer", icon: Rotate3D, href: "#", color: "text-red-500" },
-  { name: "Grinder", icon: Blend, href: "#", color: "text-red-500" },
-  { name: "Plumber", icon: ShowerHead, href: "#", color: "text-indigo-500" },
-  { name: "Carpenter", icon: DoorOpen, href: "#", color: "text-purple-500" }, 
-  { name: "Painter", icon: PaintRoller, href: "#", color: "text-red-500" },
-  { name: "Welder", icon: FlameIcon, href: "#", color: "text-yellow-400" },
-  { name: "Bore Well", icon: Waves, href: "#", color: "text-red-500" },
+  { name: "Electrician", icon: Plug, href: "/services/Electrician", color: "text-red-500" },
+  { name: "Plumber", icon: ShowerHead, href: "/services/Plumber", color: "text-indigo-500" },
+  { name: "Carpenter", icon: DoorOpen, href: "/services/Carpenter", color: "text-purple-500" }, 
+  { name: "Painter", icon: PaintRoller, href: "/services/Painter", color: "text-red-500" },
+  { name: "Welder", icon: FlameIcon, href: "/services/Welder", color: "text-yellow-400" },
+  { name: "Bore Well", icon: Waves, href: "/services/BoreWell", color: "text-red-500" },
 
+  { name: "Mixer", icon: Rotate3D, href: "/services/Mixer", color: "text-red-500" },
+  { name: "Grinder", icon: Blend, href: "/services/", color: "text-red-500" },
   { name: "A.C.Technician", icon: AirVent, href: "/services/A.C.Technician", color: "text-orange-500" },
   { name: "Air Cooler", icon: Fan, href: "/services/Air Cooler", color: "text-pink-500" },
   { name: " Refrigerator", icon: Refrigerator, href: "/services/Refrigerator", color: "text-blue-500" },
@@ -41,12 +41,12 @@ const services = [
   { name: "Networking", icon: EthernetPort, href:"https://wa.me/919652575313?text=hi I Am Troble With Networking.<Type your problem here>" , color: "text-green-500" },
  
 
-  { name: "Automobile", icon: Wrench, href: "/services/Automobile", color: "text-gray-600" },
+  { name: "Automobile", icon: Wrench, href: "/services/AutoMobile", color: "text-gray-600" },
   { name: "JCB", icon: Cog, href: "/services/jcb", color: "text-yellow-600" },
-  { name: "Finance", icon: DollarSign, href: "/services/finance", color: "text-pink-500" },
+  { name: "Finance", icon: DollarSign, href: "/services/Finance", color: "text-pink-500" },
 
-  { name: "Tours & Travels", icon: Car, href: "/services/tours-travels", color: "text-blue-500" },
-  { name: "Transport", icon: Truck, href: "/services/transport", color: "text-indigo-500" },
+  { name: "Tours&Travels", icon: Car, href: "/services/Tours-Travels", color: "text-blue-500" },
+  { name: "Transport", icon: Truck, href: "/services/Transport", color: "text-indigo-500" },
 ]
 
 export function ServiceGrid() {

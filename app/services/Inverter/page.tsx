@@ -11,9 +11,9 @@ type InverterService = {
 };
 
 const inverterServices: InverterService[] = [
-  { name: "Buy & Install", icon: Battery, href: "https://wa.me/919652575313?text=hi I Need Inverter,Shall We Discuss More Details??.<Type your Address here>", color: "text-green-500" },
-  { name: "Install", icon: BatteryFull, href: "https://wa.me/919652575313?text=hi I Have Inverter,Need Installation Only.<Type your Address here>", color: "text-blue-500" },
-  { name: "Repair", icon: WrenchIcon, href: "https://wa.me/919652575313?text=hi I Am Facing Problem With My Inverter, I Need Your Service.<Type your Address here>", color: "text-yellow-500" },
+  { name: "Buy & Install", icon: Battery, href: "https://wa.me/919652575313?text=hi I Need Inverter,Shall We Discuss More Details??.<Type your Address here>", color: "text-yellow-500" },
+  { name: "Only Installation ", icon: BatteryFull, href: "https://wa.me/919652575313?text=hi I Have Inverter,Need Installation Only.<Type your Address here>", color: "text-green-500" },
+  { name: "Repair", icon: WrenchIcon, href: "https://wa.me/919652575313?text=hi I Am Facing Problem With My Inverter, I Need Your Service.<Type your Address here>", color: "text-orange-500" },
 ];
 
 const sendTextMessage = async (serviceName: string) => {

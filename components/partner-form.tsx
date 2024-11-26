@@ -40,7 +40,7 @@ export function PartnerForm() {
             <Input id="phone" type="tel" required />
           </div>
           <div>
-            <Label htmlFor="profession">Profession</Label>
+            <Label htmlFor="profession">Skills/Profession</Label>
             <Input id="profession" required />
           </div>
           <div>

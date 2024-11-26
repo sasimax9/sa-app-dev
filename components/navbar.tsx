@@ -4,13 +4,14 @@ import { useState } from "react"
 import Link from "next/link"
 import { Menu, X, Phone, Sun, Moon } from 'lucide-react'
 import { Button } from "@/components/ui/button"
-import { PartnerForm } from "@/components/partner-form"
 import { useTheme } from "next-themes"
+import { PartnerForm } from "./Partner-form"
+
 
 const navItems = [
-  { name: "Services", href:"/services" },
-  { name: "About", href: "/About" },
-  { name: "Contact", href: "/contact" },
+  { name: "Services", href:"/" },
+  { name: "About", href: "/" },
+  { name: "Contact", href: "/" },
 ]
 
 export function Navbar() {
@@ -23,7 +24,7 @@ export function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex">
             <Link href="/" className="flex-shrink-0 flex items-center">
-              <img className="h-8 w-auto" src="/pest.svg" alt="Logo" />
+              <img className="h-8 w-auto" src="/logo.svg" alt="Logo" />
             </Link>
           </div>
           <div className="hidden md:flex items-center space-x-4">
