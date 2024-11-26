@@ -1,42 +1,45 @@
 import Link from "next/link"
-import { Home, Calendar, User, Plane, Globe, Laptop, Trash2, Truck, DollarSign, Cog, Droplet, Wrench, Tv, CctvIcon, Car, Plug, PipetteIcon, WrenchIcon, DoorOpen, AirVent, ShowerHead, PaintRoller, Refrigerator, WashingMachine, ThermometerIcon, ThermometerSun, Waves, User2, Bug, Loader, Fan, Camera, Flower, Lightbulb, ChefHat, Music, Heater, FlameIcon } from 'lucide-react'
+import { Home, Calendar, User, Plane, Globe, Laptop, Trash2, Truck, DollarSign, Cog, Droplet, Wrench, Tv, CctvIcon, Car, Plug, PipetteIcon, WrenchIcon, DoorOpen, AirVent, ShowerHead, PaintRoller, Refrigerator, WashingMachine, ThermometerIcon, ThermometerSun, Waves, User2, Bug, Loader, Fan, Camera, Flower, Lightbulb, ChefHat, Music, Heater, FlameIcon, BrainCog, BatteryCharging, Rotate3D, Sunrise, Sun, RotateCcwIcon, Blend, EthernetPort } from 'lucide-react'
 
 const services = [
-  { name: "Construction", icon: Home, href: "/services/Construction", color: "text-yellow-500" },
-  { name: "Interior Designer", icon: Tv, href: "/services/Interior Designer", color: "text-green-600" },
-  { name: "Cc Cameras", icon: CctvIcon, href: "/services/Cc Cameras", color: "text-green-500" },
+  { name: "Architect", icon: Home, href: "https://wa.me/919059979016?text=hi I need Your Services,Shall We Discuss More Details.", color: "text-yellow-500" },
+  { name: "Interior Designer", icon: BrainCog, href: "https://wa.me/919059979016?text=hi I need Your Services,Shall We Discuss More Details??.", color: "text-green-600" },
+  { name: "Cctv", icon: CctvIcon, href: "/services/Cctv", color: "text-green-500" },
+  { name: "Website Design", icon: Globe, href: "https://wa.me/918897390906?text=hi I need WebSite,Shall We Discuss More Details??.", color: "text-green-500" },
+  { name: "Solar Power", icon: Sun, href: "https://wa.me/919652575313?text=hi I Need Solar Power,Shall We Discuss More Details??.<Type your Address here>", color: "text-red-500" },
 
-  
-  { name: "Electrician", icon: Plug, href: "/services/Electrician", color: "text-red-500" },
-  { name: "Plumber", icon: ShowerHead, href: "/services/Plumber", color: "text-green-500" },
-  { name: "Carpenter", icon: DoorOpen, href: "/services/Carpenter", color: "text-purple-500" },
-  { name: "Bore Well", icon: Waves, href: "/services/Bore Well", color: "text-red-500" },
-  { name: "Painter", icon: PaintRoller, href: "/services/Painter", color: "text-red-500" },
-  { name: "Welder", icon: FlameIcon, href: "/services/Pest Control", color: "text-orange-500" },
+  { name: "Inverter", icon: BatteryCharging, href: "/services/Inverter", color: "text-red-500" },
+  { name: "Electrician", icon: Plug, href: "#", color: "text-red-500" },
+  { name: "Mixer", icon: Rotate3D, href: "#", color: "text-red-500" },
+  { name: "Grinder", icon: Blend, href: "#", color: "text-red-500" },
+  { name: "Plumber", icon: ShowerHead, href: "#", color: "text-indigo-500" },
+  { name: "Carpenter", icon: DoorOpen, href: "#", color: "text-purple-500" }, 
+  { name: "Painter", icon: PaintRoller, href: "#", color: "text-red-500" },
+  { name: "Welder", icon: FlameIcon, href: "#", color: "text-yellow-400" },
+  { name: "Bore Well", icon: Waves, href: "#", color: "text-red-500" },
 
   { name: "A.C.Technician", icon: AirVent, href: "/services/A.C.Technician", color: "text-orange-500" },
+  { name: "Air Cooler", icon: Fan, href: "/services/Air Cooler", color: "text-pink-500" },
   { name: " Refrigerator", icon: Refrigerator, href: "/services/Refrigerator", color: "text-blue-500" },
   { name: "Washing Machine", icon: WashingMachine, href: "/services/Washing Machine", color: "text-pink-500" },
+  { name: "Chimney", icon: Loader, href: "/services/Chimney", color: "text-pink-500" },
   { name: "Geyser", icon: Heater, href: "/services/Geyser", color: "text-red-500" },
   { name: "Water Purifier", icon: Droplet, href: "/services/Water Purifier", color: "text-pink-500" },
-  { name: "Chimney", icon: Loader, href: "/services/Chimney", color: "text-pink-500" },
-  { name: "Air Cooler", icon: Fan, href: "/services/Air Cooler", color: "text-pink-500" },
-
-  { name: "Pest Control", icon: Bug, href: "/services/Pest Control", color: "text-teal-500" },
-
   
+  { name: "Pest Control", icon: Bug, href: "/services/Pest Control", color: "text-teal-500" },
 
   { name: "Brahmin", icon: User, href: "/services/brahmin", color: "text-orange-500" },
   { name: "Photo/Video", icon: Camera, href: "/services/Photo/Video", color: "text-orange-500" },
-  { name: "Decoration", icon: Flower, href: "/services/Decoration", color: "text-orange-500" },
-  { name: "Lighting", icon: Lightbulb, href: "/services/Lighting", color: "text-yellow-700" },
+  { name: "Flower Decoration", icon: Flower, href: "/services/Flower Decoration", color: "text-orange-500" },
+  { name: "Lighting", icon: Lightbulb, href: "/services/Lighting", color: "text-orange-500" },
   { name: "Food Catering", icon: ChefHat, href: "/services/Food Catering", color: "text-orange-500" },
-  { name: "Sounds", icon: Music, href: "/services/Sounds", color: "text-orange-500" },
+  { name: "DJ Sounds", icon: Music, href: "/services/Sounds", color: "text-orange-500" },
 
 
 
-  { name: "PC Laptop Repair", icon: Laptop, href: "/services/pc-laptop-repair", color: "text-red-500" },
-  { name: "Website Design", icon: Globe, href: "/services/web-design", color: "text-green-500" },
+  { name: "PC/Laptop Repair", icon: Laptop, href:"https://wa.me/919652575313?text=hi I Am Troble With pc/laptop.<Type your problem here>" , color: "text-green-500" },
+  { name: "Networking", icon: EthernetPort, href:"https://wa.me/919652575313?text=hi I Am Troble With Networking.<Type your problem here>" , color: "text-green-500" },
+ 
 
   { name: "Automobile", icon: Wrench, href: "/services/Automobile", color: "text-gray-600" },
   { name: "JCB", icon: Cog, href: "/services/jcb", color: "text-yellow-600" },

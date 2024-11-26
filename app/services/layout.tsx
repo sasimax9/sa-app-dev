@@ -24,19 +24,7 @@ const services = [
 export default function ServiceLayout({ children }: ServiceLayoutProps) {
   return (
     <div className="flex">
-      <aside className="w-64 h-screen bg-gray-100 p-4">
-        <nav>
-          <ul>
-            {services.map((service) => (
-              <li key={service.name} className="mb-2">
-                <Link href={service.href} className="text-blue-500 hover:underline">
-                  {service.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
-      </aside>
+      
       <main className="flex-1 p-4">{children}</main>
     </div>
   )
