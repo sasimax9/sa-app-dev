@@ -10,9 +10,9 @@ import { PartnerForm } from "./Partner-form"
 
 
 const navItems = [
-  { name: "Services", href:"/" },
-  { name: "About", href: "/" },
-  { name: "Contact", href: "/" },
+  { name: "Services", href:"/Services" },
+  { name: "About", href: "/About" },
+  { name: "Contact", href: "/Contact" },
 ]
 
 export function Navbar() {
