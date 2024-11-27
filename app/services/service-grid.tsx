@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Home, Calendar, User, Plane, Globe, Laptop, Trash2, Truck, DollarSign, Cog, Droplet, Wrench, Tv, CctvIcon, Car, Plug, PipetteIcon, WrenchIcon, DoorOpen, AirVent, ShowerHead, PaintRoller, Refrigerator, WashingMachine, ThermometerIcon, ThermometerSun, Waves, User2, Bug, Loader, Fan, Camera, Flower, Lightbulb, ChefHat, Music, Heater, FlameIcon, BrainCog, BatteryCharging, Rotate3D, Sunrise, Sun, RotateCcwIcon, Blend, EthernetPort } from 'lucide-react'
+import { Home, Calendar, User, Plane, Globe, Laptop, Trash2, Truck, DollarSign, Cog, Droplet, Wrench, Tv, CctvIcon, Car, Plug, PipetteIcon, WrenchIcon, DoorOpen, AirVent, ShowerHead, PaintRoller, Refrigerator, WashingMachine, ThermometerIcon, ThermometerSun, Waves, User2, Bug, Loader, Fan, Camera, Flower, Lightbulb, ChefHat, Music, Heater, FlameIcon, BrainCog, BatteryCharging, Rotate3D, Sunrise, Sun, RotateCcwIcon, Blend, EthernetPort, Monitor, Drum, Book, Scissors, ShirtIcon, Tv2Icon } from 'lucide-react'
 
 const services = [
   { name: "Architect", icon: Home, href: "https://wa.me/919059979016?text=hi I need Your Services,Shall We Discuss More Details.", color: "text-yellow-500" },
@@ -16,9 +16,10 @@ const services = [
   { name: "Welder", icon: FlameIcon, href: "/services/Welder", color: "text-yellow-400" },
   { name: "Bore Well", icon: Waves, href: "/services/BoreWell", color: "text-red-500" },
 
-  { name: "Mixer", icon: Rotate3D, href: "/services/Mixer", color: "text-red-500" },
-  { name: "Grinder", icon: Blend, href: "/services/", color: "text-red-500" },
-  { name: "A.C.Technician", icon: AirVent, href: "/services/A.C.Technician", color: "text-orange-500" },
+  { name: "Mixer", icon: Rotate3D, href: "https://wa.me/919652575313?text=hi I Need Mixer Repair Service.  <*Type* *your* *Address* *here*>", color: "text-red-500" },
+  { name: "Grinder", icon: Blend, href: "https://wa.me/919652575313?text=hi I Need Grinder Repair Service.  <*Type* *your* *Address* *here*>", color: "text-red-500" },
+  { name: "T.V.", icon: Tv2Icon, href: "/services/T.V", color: "text-indigo-500" },
+  { name: "A.C.", icon: AirVent, href: "/services/A.C", color: "text-orange-500" },
   { name: "Air Cooler", icon: Fan, href: "/services/Air Cooler", color: "text-pink-500" },
   { name: " Refrigerator", icon: Refrigerator, href: "/services/Refrigerator", color: "text-blue-500" },
   { name: "Washing Machine", icon: WashingMachine, href: "/services/Washing Machine", color: "text-pink-500" },
@@ -29,7 +30,8 @@ const services = [
   { name: "Pest Control", icon: Bug, href: "/services/Pest Control", color: "text-teal-500" },
 
   { name: "Brahmin", icon: User, href: "/services/brahmin", color: "text-orange-500" },
-  { name: "Photo/Video", icon: Camera, href: "/services/Photo/Video", color: "text-orange-500" },
+  { name: "Band Melam", icon: Drum, href: "/services/brahmin", color: "text-indigo-500" },
+  { name: "Photo/Video", icon: Camera, href: "/services/Photography", color: "text-orange-500" },
   { name: "Flower Decoration", icon: Flower, href: "/services/Flower Decoration", color: "text-orange-500" },
   { name: "Lighting", icon: Lightbulb, href: "/services/Lighting", color: "text-orange-500" },
   { name: "Food Catering", icon: ChefHat, href: "/services/Food Catering", color: "text-orange-500" },
@@ -37,13 +39,15 @@ const services = [
 
 
 
-  { name: "PC/Laptop Repair", icon: Laptop, href:"https://wa.me/919652575313?text=hi I Am Troble With pc/laptop.<Type your problem here>" , color: "text-green-500" },
-  { name: "Networking", icon: EthernetPort, href:"https://wa.me/919652575313?text=hi I Am Troble With Networking.<Type your problem here>" , color: "text-green-500" },
+  { name: "PC/Laptop Repair", icon: Monitor, href:"https://wa.me/919652575313?text=hi I Am Trouble With pc/laptop.<Type your problem here>" , color: "text-green-500" },
+  { name: "Networking", icon: EthernetPort, href:"https://wa.me/919652575313?text=hi I Am Trouble With Networking.<Type your problem here>" , color: "text-green-500" },
  
 
   { name: "Automobile", icon: Wrench, href: "/services/AutoMobile", color: "text-gray-600" },
   { name: "JCB", icon: Cog, href: "/services/jcb", color: "text-yellow-600" },
   { name: "Finance", icon: DollarSign, href: "/services/Finance", color: "text-pink-500" },
+  { name: "Tution", icon: Book, href: "/services/Tution", color: "text-gray-500" },
+  { name: "Tailoring", icon: ShirtIcon, href: "/services/Tailoring", color: "text-indigo-500" },
 
   { name: "Tours&Travels", icon: Car, href: "/services/Tours-Travels", color: "text-blue-500" },
   { name: "Transport", icon: Truck, href: "/services/Transport", color: "text-indigo-500" },

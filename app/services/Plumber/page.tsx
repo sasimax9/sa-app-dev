@@ -19,7 +19,7 @@ const PlumbingServices = [
   {
     name: "Repair",
     icon: WrenchIcon,
-    href: "https://wa.me/919652575313?text=hi I Need Plumber  <Type Your Problem.><Type your Address here>", // Link to the internal page
+    href: "https://wa.me/919652575313?text=hi I Need Plumber  <Type Your Requirement/>Problem.><Type your Address here>", // Link to the internal page
     color: "text-orange-500",
   },
 ];

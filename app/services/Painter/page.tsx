@@ -6,39 +6,46 @@ import {
   LucideBrush,
   LucidePaintBucket,
   LucideRuler,
+  Paintbrush,
+  Paintbrush2Icon,
 } from "lucide-react";
+import { Water_Brush } from "next/font/google";
 
 const PaintingServices = [
+
+  {
+    name: "For New Construction",
+    icon: LucidePaintBucket,
+    href: "https://wa.me/919652575313?text=hi I Need Painting For My New Construction.<Type your Address here>", // Link to the internal page
+    color: "text-red-500",
+  },
+
+
   {
     name: "Interior Painting",
     icon: LucideBrush,
-    href: "/interior-painting", // Link to the internal page
+    href: "https://wa.me/919652575313?text=hi I Need Painting Only For Interior.<Type your Address here>", // Link to the internal page
     color: "text-blue-500",
   },
   {
     name: "Exterior Painting",
-    icon: LucidePaintBucket,
-    href: "/exterior-painting", // Link to the internal page
+    icon: Paintbrush,
+    href: "https://wa.me/919652575313?text=hi I Need Painting Only For Exterior.<*Type* *your* *Address* *here*>", // Link to the internal page
     color: "text-orange-500",
   },
   {
-    name: "Wall Texturing",
+    name: "Interior&Exterior",
     icon: LucideRuler,
-    href: "/wall-texturing", // Link to the internal page
+    href:"https://wa.me/919652575313?text=hi I Need Painting  For Interior Exterior For My Old Bulding.<*Type* *your* *Address* *here*>", // Link to the internal page
     color: "text-green-600",
   },
   {
-    name: "Furniture Painting",
-    icon: LucideBrush,
-    href: "/furniture-painting", // Link to the internal page
+    name: "Others",
+    icon: Paintbrush2Icon,
+    href: "https://wa.me/919652575313?text=hi I Need Painting Service. <Type Your Requiremet>.  <*Type* *your* *Address* *here*>", // Link to the internal page
     color: "text-yellow-500",
   },
-  {
-    name: "Decorative Painting",
-    icon: LucidePaintBucket,
-    href: "/decorative-painting", // Link to the internal page
-    color: "text-red-500",
-  },
+  
 ];
 
 const PaintingMenu: React.FC = () => {

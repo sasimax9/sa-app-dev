@@ -4,9 +4,12 @@ import React from "react";
 import Link from "next/link";
 import {
   Brush,
+  Building2,
   LucideHammer,
   LucideRuler,
   LucideWrench,
+  PaintbrushVerticalIcon,
+  Table,
   Trees,
 } from "lucide-react";
 
@@ -14,7 +17,7 @@ const CarpenterServices = [
  
   {
     name: "Work For New Construction",
-    icon: Trees,
+    icon: Building2,
     href: "https://wa.me/919652575313?text=hi I Need Carpenter For New Construction.<Type your Address here>", // Link to the internal page
     color: "text-orange-500",
   },
@@ -31,10 +34,22 @@ const CarpenterServices = [
     color: "text-blue-500",
   },
   {
+    name: "CupBoard Repair",
+    icon: Table,
+    href:  "https://wa.me/919652575313?text=hi I Need Carpenter  <Type Your Problem.><Type your Address here>", // Link to the internal page
+    color: "text-purple-500",
+  },
+  {
     name: "Wood Polishing",
     icon: Brush,
-    href:  "https://wa.me/919652575313?text=hi I Need Carpenter For Polshing.<Type your Address here>", // Link to the internal page
+    href:  "https://wa.me/919652575313?text=hi I Need Carpenter <Type Your Requirement.><Type your Address here>", // Link to the internal page
     color: "text-yellow-500",
+  },
+  {
+    name: "Others",
+    icon: PaintbrushVerticalIcon,
+    href:  "https://wa.me/919652575313?text=hi I Need Carpenter <Type Your Requirement.><Type your Address here>", // Link to the internal page
+    color: "text-indigo-500",
   },
   
 ];
