@@ -10,6 +10,8 @@ import {
   Truck,
   Car,
   Package,
+  Vegan,
+  BusFront,
 } from "lucide-react";
 
 const TransportServices = [
@@ -21,13 +23,13 @@ const TransportServices = [
   },
   {
     name: "Van",
-    icon: Car,
+    icon: Vegan,
     href: "https://wa.me/919652575313?text=hi I Need Electrical Repair Services. <Type your Address here>",
     color: "text-orange-500",
   },
   {
-    name: "Logistics",
-    icon: Package,
+    name: "Lorry",
+    icon: BusFront,
     href: "https://wa.me/919652575313?text=hi I Need Electrical Maintenance Services. <Type your Address here>",
     color: "text-green-600",
   },

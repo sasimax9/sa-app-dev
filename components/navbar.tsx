@@ -80,7 +80,7 @@ export function Navbar() {
             ))}
             <Link
               href="https://wa.me/919652575313"
-              className="block px-3 py-2 rounded-md text-base font-medium text-green-500 hover:bg-accent"
+              className="block px-3 py-2 rounded-md text-base font-medium text-green-500 hover:bg-gray-400"
             >
               WhatsApp
             </Link>

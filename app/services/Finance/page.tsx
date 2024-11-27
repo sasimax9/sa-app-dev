@@ -7,12 +7,13 @@ import {
   LucideCreditCard,
   LucideShield,
   LucideTrendingUp,
+  HandCoins,
 } from "lucide-react";
 
 const FinanceServices = [
   {
     name: "Loans",
-    icon: LucideDollarSign,
+    icon: HandCoins,
     href: "/loans", // Link to the internal page
     color: "text-blue-500",
   },

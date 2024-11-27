@@ -6,25 +6,28 @@ import {
   LucidePlane,
   LucideMapPin,
   LucideLuggage,
+  Car,
+  Bus,
+  Train,
 } from "lucide-react";
 
 const TourServices = [
   {
-    name: "Flight Booking",
-    icon: LucidePlane,
-    href: "/flight-booking", // Link to the internal page
+    name: "Car",
+    icon: Car,
+    href: "/car", // Link to the internal page
     color: "text-blue-500",
   },
   {
-    name: "Hotel Reservations",
-    icon: LucideMapPin,
-    href: "/hotel-reservations", // Link to the internal page
+    name: "Bus",
+    icon: Bus,
+    href: "/bus", // Link to the internal page
     color: "text-orange-500",
   },
   {
-    name: "Travel Packages",
-    icon: LucideLuggage,
-    href: "/travel-packages", // Link to the internal page
+    name: "Train",
+    icon: Train,
+    href: "/train", // Link to the internal page
     color: "text-green-600",
   },
 ];

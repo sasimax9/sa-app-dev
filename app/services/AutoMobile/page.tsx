@@ -9,58 +9,27 @@ import {
   LucideBike,
   LucideDroplet,
   LucideAlertTriangle,
+  CarFrontIcon,
+  CarTaxiFront,
 } from "lucide-react";
 
 const AutomobileServices = [
-  {
-    name: "Car Repair",
-    icon: LucideWrench,
-    href: "/car-repair", // Link to the internal page
-    color: "text-blue-500",
-  },
   
+  
+ 
   {
-    name: "Fuel Services",
-    icon: LucideLamp,
-    href: "/fuel-services", // Link to the internal page
-    color: "text-green-600",
-  },
-  {
-    name: "Bike Servicing",
+    name: "Bike ",
     icon: LucideBike,
     href: "/bike-servicing", // Link to the internal page
+    color: "text-black-500",
+  },
+  {
+    name: "Car ",
+    icon: CarTaxiFront,
+    href: "/car-servicing", // Link to the internal page
     color: "text-red-500",
   },
-  {
-    name: "Car Servicing",
-    icon: LucideWrench,
-    href: "/car-servicing", // Link to the internal page
-    color: "text-purple-500",
-  },
-  {
-    name: "Water Servicing for Bike",
-    icon: LucideDroplet,
-    href: "/water-servicing-bike", // Link to the internal page
-    color: "text-blue-400",
-  },
-  {
-    name: "Water Servicing for Car",
-    icon: LucideDroplet,
-    href: "/water-servicing-car", // Link to the internal page
-    color: "text-teal-500",
-  },
-  {
-    name: "Bike Breakdown Services",
-    icon: LucideAlertTriangle,
-    href: "/bike-breakdown", // Link to the internal page
-    color: "text-yellow-600",
-  },
-  {
-    name: "Car Breakdown Services",
-    icon: LucideAlertTriangle,
-    href: "/car-breakdown", // Link to the internal page
-    color: "text-yellow-700",
-  },
+ 
 ];
 
 const AutomobileMenu: React.FC = () => {

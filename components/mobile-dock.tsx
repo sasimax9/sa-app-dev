@@ -1,14 +1,15 @@
 "use client"
 
-import { Home, Search, User, Menu } from 'lucide-react'
+import { Search, Handshake, Headset, Eye } from 'lucide-react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
+
 const dockItems = [
-  { icon: Home, label: 'Home', href: '/' },
+  { icon: Eye, label: 'Blog', href: '/' },
   { icon: Search, label: 'Search', href: '/search' },
-  { icon: User, label: 'Partner With Us', href: '/' },
-  { icon: Menu, label: 'Services', href: '/ '},
+  { icon: Handshake, label: 'Partner With Us', href:'/Partnerform'},
+  { icon: Headset , label: 'Customer Support', href: ' https://wa.me/919652575313',},
 ]
 
 export function MobileDock() {
@@ -21,7 +22,7 @@ export function MobileDock() {
           <Link
             key={item.label}
             href={item.href}
-            className={`inline-flex flex-col items-center justify-center px-5 hover:bg-accent group ${
+            className={`inline-flex flex-col items-center justify-center px-5 hover:bg-slate-300 ${
               pathname === item.href ? 'text-primary' : 'text-foreground/60'
             }`}
           >

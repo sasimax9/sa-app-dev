@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Home, Calendar, User, Plane, Globe, Laptop, Trash2, Truck, DollarSign, Cog, Droplet, Wrench, Tv, CctvIcon, Car, Plug, PipetteIcon, WrenchIcon, DoorOpen, AirVent, ShowerHead, PaintRoller, Refrigerator, WashingMachine, ThermometerIcon, ThermometerSun, Waves, User2, Bug, Loader, Fan, Camera, Flower, Lightbulb, ChefHat, Music, Heater, FlameIcon, BrainCog, BatteryCharging, Rotate3D, Sunrise, Sun, RotateCcwIcon, Blend, EthernetPort, Monitor, Drum, Book, Scissors, ShirtIcon, Tv2Icon } from 'lucide-react'
+import { Home, Calendar, User, Plane, Globe, Laptop, Trash2, Truck, DollarSign, Cog, Droplet, Wrench, Tv, CctvIcon, Car, Plug, PipetteIcon, WrenchIcon, DoorOpen, AirVent, ShowerHead, PaintRoller, Refrigerator, WashingMachine, ThermometerIcon, ThermometerSun, Waves, User2, Bug, Loader, Fan, Camera, Flower, Lightbulb, ChefHat, Music, Heater, FlameIcon, BrainCog, BatteryCharging, Rotate3D, Sunrise, Sun, RotateCcwIcon, Blend, EthernetPort, Monitor, Drum, Book, Scissors, ShirtIcon, Tv2Icon, BookOpen } from 'lucide-react'
 
 const services = [
   { name: "Architect", icon: Home, href: "https://wa.me/919059979016?text=hi I need Your Services,Shall We Discuss More Details.", color: "text-yellow-500" },
@@ -46,7 +46,7 @@ const services = [
   { name: "Automobile", icon: Wrench, href: "/services/AutoMobile", color: "text-gray-600" },
   { name: "JCB", icon: Cog, href: "/services/jcb", color: "text-yellow-600" },
   { name: "Finance", icon: DollarSign, href: "/services/Finance", color: "text-pink-500" },
-  { name: "Tution", icon: Book, href: "/services/Tution", color: "text-gray-500" },
+  { name: "Tution", icon: BookOpen, href: "/services/Tution", color: "text-indigo-500" },
   { name: "Tailoring", icon: ShirtIcon, href: "/services/Tailoring", color: "text-indigo-500" },
 
   { name: "Tours&Travels", icon: Car, href: "/services/Tours-Travels", color: "text-blue-500" },
